@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+
+		IMPORTANTE ERROR JAVA 8 AÑADIR A CSPROJ
+
+		<PropertyGroup>
+    		<JavaOptions>$(JavaOptions) -noverify </JavaOptions>
+  		</PropertyGroup>
+
+	-->
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	 <attr path="/api/package[@name='io.card.payment']" name="managedName">Xamarin.CardIO.Payment</attr>
+   <attr path="/api/package[@name='io.card.payment.i18n']" name="managedName">Xamarin.CardIO.I18n</attr>
+   <attr path="/api/package[@name='io.card.payment.i18n.locales']" name="managedName">Xamarin.CardIO.I18n.Locales</attr>
+   <attr path="/api/package[@name='io.card.payment.ui']" name="managedName">Xamarin.CardIO.UI</attr>
+</metadata>
